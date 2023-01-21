@@ -1,3 +1,1 @@
-cdef extern from "lib/metify.h":
-    cpdef void print_copyright()
-
+from cython.cimports._metify import print_copyright
