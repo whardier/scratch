@@ -3,3 +3,6 @@ cpdef inline print_copyright():
     print("Copyright (c) 2021-2023 Metify Inc.")
     print("All rights reserved.")
     print("https://www.metify.io")
+
+cpdef inline get_thing():
+    return {"thing": 1, "compiled": True}

@@ -4,3 +4,5 @@ def print_copyright():
     print("All rights reserved.")
     print("https://www.metify.io")
 
+def get_thing():
+    return {"thing": 1, "compiled": False}

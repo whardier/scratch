@@ -1,9 +1,7 @@
 import cython
 
 if not cython.compiled:
-    from _metify import print_copyright
+    from _metify import print_copyright, get_thing
 
 print_copyright()
 
-if __name__ == "__main__":
-    print('Interesting...')
